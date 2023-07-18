@@ -9,10 +9,6 @@ h1{
     font-family: sans-serif, serif;  
 }
 
-h2{
-    font-size: 35px;
-    background-color: lightgreen;
-}
 
 body h3{
     font-size: 25px;
@@ -76,6 +72,11 @@ h2, h3{
     background-color: rgb(240, 238, 235);
     padding: 8px 16px;
 }
+h2{
+    font-size: 35px;
+    background-color: lightgreen;
+}
+
 
 hr{
     border: 2px solid rgb(8, 93, 8);
