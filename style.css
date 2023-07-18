@@ -1,23 +1,22 @@
 body{
     background-color: rgb(242, 227, 239);
     font-size: 25px;
-    
 }
 
 h1{
     text-align: center;
     font-size: 45px;
-    font-family: sans-serif, serif;
-    
+    font-family: sans-serif, serif;  
 }
 
 h2{
     font-size: 35px;
+    background-color: lightgreen;
 }
 
-h3{
-
+body h3{
     font-size: 25px;
+    margin-top: 80px;
 }
 
 
@@ -27,6 +26,13 @@ h1,h2,h3{
 
 .index{
     list-style: none;
+    border: 5px dashed rgb(26, 134, 201);
+    text-align: center;
+    display: inline-block;
+    margin-left: 34%;
+    padding-right: 30px;
+    margin-top: 70px;
+    padding-top: 10px;
 }
 
 .index a{    
@@ -39,16 +45,43 @@ h1,h2,h3{
 
 li{
     line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 a{
     color: rgba(210, 97, 97);
     font-size: 20px;
-    
     font-weight: 550;
 }
 
 img{
     height: auto;
     width: 500px;
+    border: 5px solid rgb(191, 129, 139);
+    margin: 40px 30px;
+    margin-left: 32%;
+    margin-bottom: 60px;
+
+}
+
+h2, h3, p, li{
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+h2, h3{
+    margin-top: 20px;
+    border: 2px solid rgb(239, 85, 18);
+    background-color: rgb(240, 238, 235);
+    padding: 8px 16px;
+}
+
+hr{
+    border: 2px solid rgb(8, 93, 8);
+
+}
+
+a, hr{
+    margin: 20px 10px;
 }
